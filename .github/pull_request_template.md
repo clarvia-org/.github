@@ -1,28 +1,86 @@
 ## Summary
 
-<!-- One-line description of what this PR does. -->
+Describe the change.
 
-## Changes
+---
 
-<!-- List the specific changes made. -->
+## Type of change
 
--
+Please select all that apply:
 
-## Related issues
+- [ ] Source addition
+- [ ] Workflow correction
+- [ ] Schema change
+- [ ] Documentation update
+- [ ] Translation update
+- [ ] Web/UI change
+- [ ] Tooling/CI change
+- [ ] Accessibility improvement
+- [ ] Other
 
-<!-- Link any related issues: Fixes #123, Relates to #456 -->
+---
 
-## For data changes
+## Affected repository area
 
-<!-- Delete this section if not applicable. -->
+- [ ] `workflow-data`
+- [ ] `workflow-web`
+- [ ] Documentation
+- [ ] Governance/community files
+- [ ] Other
 
-- [ ] All modified tasks cite a primary legal source
-- [ ] Source access dates are current
-- [ ] Translations provided for EN, FR, DE (or marked as needing translation)
-- [ ] No deadline or prerequisite regressions
+---
 
-## Checklist
+## Jurisdiction
 
-- [ ] I have read the [Contributing Guide](https://github.com/clarvia-org/.github/blob/main/CONTRIBUTING.md)
-- [ ] Tests pass locally
-- [ ] This PR has a clear, descriptive title
+If applicable:
+
+- [ ] Luxembourg
+- [ ] France
+- [ ] Belgium
+- [ ] Germany
+- [ ] Portugal
+- [ ] Cross-border
+- [ ] Not applicable
+
+---
+
+## Source/provenance
+
+For workflow-data or administrative-content changes, include official source references.
+
+- Source URL:
+- Source title:
+- Jurisdiction:
+- Language:
+- Access date:
+- Relevant provision, section, or evidence locator:
+
+---
+
+## Review status
+
+For workflow-data changes:
+
+- [ ] Discovered
+- [ ] Structured from source
+- [ ] Source checked
+- [ ] Expert reviewed
+- [ ] Ready for maintainer review
+- [ ] Not applicable
+
+---
+
+## Checks
+
+- [ ] I have read `CONTRIBUTING.md`
+- [ ] I have followed the Code of Conduct
+- [ ] I have not included sensitive personal information
+- [ ] I have linked official sources where required
+- [ ] I have marked uncertain or incomplete information clearly
+- [ ] I have run relevant tests or validation where applicable
+
+---
+
+## Notes for reviewers
+
+Add anything reviewers should pay special attention to.

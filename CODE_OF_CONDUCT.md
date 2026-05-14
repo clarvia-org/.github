@@ -2,36 +2,121 @@
 
 ## Our pledge
 
-Clarvia exists to help people during one of the most difficult moments of their lives. We hold ourselves to a high standard of empathy, accuracy, and respect — in our product and in our community.
+Clarvia exists to reduce administrative burden during bereavement through trustworthy, source-backed public-interest infrastructure.
 
-We pledge to make participation in this project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We are committed to maintaining a respectful, inclusive, and professional community for contributors, reviewers, maintainers, and users.
+
+We pledge to make participation in this project a harassment-free experience for everyone, regardless of:
+
+- age,
+- body size,
+- disability,
+- ethnicity,
+- sex characteristics,
+- gender identity or expression,
+- level of experience,
+- education,
+- socio-economic status,
+- nationality,
+- personal appearance,
+- race,
+- religion,
+- or sexual identity and orientation.
+
+We expect all participants to contribute in ways that support:
+
+- accuracy,
+- collaboration,
+- transparency,
+- accessibility,
+- and respect for people navigating bereavement and administrative systems.
+
+---
 
 ## Our standards
 
-**Examples of behaviour that contributes to a positive environment:**
+### Examples of behaviour that contributes to a positive environment
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for bereaved families and their needs
-- Showing empathy toward other community members
+- Using welcoming, respectful, and inclusive language
+- Engaging constructively with differing viewpoints and experiences
+- Accepting feedback professionally and in good faith
+- Prioritizing accuracy, provenance, and clarity
+- Acknowledging uncertainty where appropriate
+- Supporting contributors with varying levels of experience
+- Keeping discussions focused on improving the project and its public usefulness
 
-**Examples of unacceptable behaviour:**
+---
 
-- The use of sexualised language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information without explicit permission
-- Deliberately introducing inaccurate legal or procedural information
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+### Examples of unacceptable behaviour
+
+- Harassment, intimidation, or discriminatory behaviour
+- Trolling, insulting, or derogatory comments
+- Personal attacks or sustained hostility
+- Publishing another person's private or sensitive information without permission
+- Deliberately introducing misleading, fabricated, or unsourced workflow information
+- Misrepresenting legal or administrative guidance as verified when it is not
+- Bad-faith contributions, spam, or disruptive behaviour
+- Sexualized language or unwelcome sexual attention
+- Threats, stalking, or sustained intimidation
+- Other conduct that could reasonably be considered inappropriate in a professional or collaborative setting
+
+---
 
 ## Scope
 
-This Code of Conduct applies within all project spaces — repositories, issues, pull requests, discussions, and any other channel used for project communication. It also applies when an individual is representing the project in public spaces.
+This Code of Conduct applies across all Clarvia project spaces, including:
 
-## Enforcement
+- repositories,
+- issues,
+- pull requests,
+- discussions,
+- documentation,
+- review workflows,
+- community channels,
+- events,
+- and other project-related communications.
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the project maintainers at **conduct@clarvia.org**. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter.
+It also applies when an individual is representing Clarvia in public or professional contexts.
+
+---
+
+## Enforcement responsibilities
+
+Project maintainers are responsible for:
+
+- clarifying and enforcing this Code of Conduct,
+- responding to reports,
+- and taking appropriate and proportionate corrective action when necessary.
+
+Maintainers may remove, edit, or reject contributions, comments, commits, code, issues, or other content that violates this Code of Conduct.
+
+---
+
+## Reporting and enforcement
+
+Instances of abusive, harassing, unsafe, or otherwise unacceptable behaviour should be reported through a private project reporting channel.
+
+Until a dedicated reporting address is published, reports may be made privately to a Clarvia organization owner or maintainer.
+
+Do not open public issues for sensitive conduct reports.
+
+Reports will be reviewed confidentially and handled in good faith.
+
+The project team will:
+
+- investigate reported incidents,
+- assess appropriate responses,
+- and maintain confidentiality where reasonably possible.
+
+Responses may include:
+
+- warnings,
+- temporary restrictions,
+- removal of content,
+- suspension of participation,
+- or permanent bans from project spaces.
+
+---
 
 ## Attribution
 

@@ -1,43 +1,58 @@
-name: 🐛 Bug Report
-description: Report a bug in the web layer or tooling.
-labels: ["bug"]
+name: Bug report
+description: Report a technical bug in the website, data exports, tooling, or documentation.
+title: "[Bug]: "
+labels:
+  - type: bug
+  - status: needs-review
 body:
   - type: textarea
     id: description
     attributes:
-      label: Bug description
-      description: A clear and concise description of the bug.
+      label: Description
+      description: What is broken?
     validations:
       required: true
+
   - type: textarea
-    id: reproduction
+    id: steps
     attributes:
       label: Steps to reproduce
-      description: How can we reproduce this?
+      description: How can we reproduce the issue?
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. See error
+        1. Go to ...
+        2. Click ...
+        3. See error ...
     validations:
-      required: true
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: Affected URL or file
+      placeholder: "https://... or path/to/file"
+    validations:
+      required: false
+
   - type: textarea
     id: expected
     attributes:
       label: Expected behaviour
-      description: What should happen instead?
-    validations:
-      required: true
-  - type: input
-    id: browser
-    attributes:
-      label: Browser and OS
-      placeholder: "e.g. Chrome 125 on Windows 11"
+      description: What did you expect to happen?
     validations:
       required: false
+
   - type: textarea
-    id: screenshots
+    id: actual
     attributes:
-      label: Screenshots
-      description: Attach screenshots if applicable.
+      label: Actual behaviour
+      description: What happened instead?
     validations:
       required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included sensitive personal information.
+          required: true

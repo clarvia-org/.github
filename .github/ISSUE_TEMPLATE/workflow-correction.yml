@@ -1,48 +1,74 @@
-name: ⚠️ Workflow Correction
-description: Report an error in a workflow task (wrong deadline, missing step, incorrect prerequisite).
-labels: ["correction", "data"]
+name: Workflow correction
+description: Report a possible error, outdated source, missing step, or unclear workflow item.
+title: "[Workflow correction]: "
+labels:
+  - type: workflow
+  - status: needs-review
 body:
-  - type: input
-    id: country
+  - type: markdown
     attributes:
-      label: Country
-      description: Which country's workflow is affected?
-      placeholder: "e.g. LU"
+      value: |
+        Thank you for helping improve Clarvia.
+
+        Do not include personal bereavement cases, identity documents, death certificates, addresses, or other sensitive personal information.
+
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      description: Which country, region, or cross-border corridor is affected?
+      placeholder: "Example: Luxembourg"
     validations:
       required: true
+
   - type: input
-    id: task_id
+    id: workflow
     attributes:
-      label: Task ID
-      description: The task ID that is incorrect (e.g. 1.3, 3.2). Leave blank if reporting a missing task.
-      placeholder: "e.g. 2.1"
+      label: Affected workflow or page
+      description: Link or name of the affected workflow, checklist, or data object.
+      placeholder: "Example: Luxembourg death declaration workflow"
     validations:
       required: false
-  - type: dropdown
-    id: error_type
-    attributes:
-      label: Type of error
-      options:
-        - Incorrect deadline
-        - Wrong or missing prerequisite
-        - Missing task
-        - Outdated legal reference
-        - Incorrect institution or contact
-        - Translation error
-        - Other
-    validations:
-      required: true
+
   - type: textarea
-    id: description
+    id: issue
     attributes:
-      label: What is incorrect?
-      description: Describe the error and what the correct information should be.
+      label: What seems incorrect or missing?
+      description: Describe the possible issue.
     validations:
       required: true
+
   - type: textarea
     id: source
     attributes:
-      label: Supporting source
-      description: Link or citation to the correct legal source, if you have one.
+      label: Official source
+      description: Provide the official source URL, legal provision, or administrative reference if known.
+      placeholder: "Official source URL, title, language, access date, relevant section."
     validations:
       required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: How significant is this correction?
+      options:
+        - Broken link or metadata issue
+        - Wording or clarity issue
+        - Missing administrative step
+        - Incorrect deadline
+        - Incorrect requirement
+        - Cross-border branching issue
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included sensitive personal information.
+          required: true
+        - label: I understand Clarvia provides administrative guidance, not individualized legal advice.
+          required: true
