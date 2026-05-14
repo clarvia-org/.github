@@ -1,86 +1,78 @@
-# Clarvia
+# Clarvia GitHub defaults
 
-**Open workflow infrastructure for verified, source-backed bereavement administration across Europe.**
+This repository contains default community health files and templates for the Clarvia GitHub organization.
 
-Clarvia builds structured administrative workflows that help families navigate the formal steps required after the death of a loved one. Every published task is linked to official sources with provenance and review metadata.
-
-Clarvia focuses on cross-border bereavement administration, starting from Luxembourg and the Greater Region.
-
-> Clarvia provides administrative guidance based on official sources. It is not a substitute for individualized legal advice.
+These files help standardize contribution, review, governance, support, and security practices across Clarvia's public repositories.
 
 ---
 
-## Repositories
+## Purpose
 
-| Repository | Description |
+Clarvia builds open workflow infrastructure for verified, source-backed bereavement administration across Europe.
+
+The default files in this repository support:
+
+- source-backed contributions,
+- clear review expectations,
+- respectful collaboration,
+- security reporting,
+- workflow correction processes,
+- and consistent project governance.
+
+---
+
+## Default files
+
+This repository may provide organization-wide defaults for:
+
+- `CONTRIBUTING.md`
+- `CODE_OF_CONDUCT.md`
+- `GOVERNANCE.md`
+- `SECURITY.md`
+- `SUPPORT.md`
+- `FUNDING.yml`
+- issue templates
+- pull request templates
+
+Individual repositories may override these defaults when repository-specific guidance is needed.
+
+---
+
+## Public repositories
+
+| Repository | Purpose |
 |---|---|
-| [workflow-data](https://github.com/clarvia-org/workflow-data) | Source-backed workflow data, schemas, provenance, exports, and validation |
-| [workflow-web](https://github.com/clarvia-org/workflow-web) | Static web layer for publishing workflows, checklists, and generated API views |
-| [ops-private](https://github.com/clarvia-org/ops-private) | Private operational workspace for grants, reviewer coordination, and internal planning |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Source-backed workflow data, schemas, provenance, exports, and validation |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Static web layer for publishing workflows, checklists, and generated API views |
 
 ---
 
-## How it works
+## Sensitive information
 
-Each workflow is modeled as structured tasks with:
+Do not submit sensitive personal information through public GitHub issues, pull requests, discussions, or comments.
 
-- **Deadlines and conditions** derived from official administrative sources
-- **Task dependencies** and workflow sequencing
-- **Source provenance** for every published obligation
-- **Verification states** and human review tracking
-- **Multilingual support** (EN, FR, DE; additional languages planned)
+This includes:
 
-The long-term goal is reusable European bereavement workflow infrastructure that can generate:
-- human-readable checklists,
-- machine-readable exports,
-- review pipelines,
-- and lightweight public APIs.
+- identity documents,
+- death certificates,
+- family details,
+- addresses,
+- medical information,
+- financial information,
+- private correspondence,
+- or personal bereavement case details.
 
----
+Clarvia provides administrative guidance based on official sources.
 
-## Current coverage
-
-- 🇱🇺 Luxembourg — alpha workflow and source registry in progress
-- 🇫🇷 France — source mapping planned
-- 🇧🇪 Belgium — jurisdiction modeling planned
+It does not provide individualized legal advice.
 
 ---
 
-## Contributing
-
-Please read our [Contributing Guide](CONTRIBUTING.md) before submitting issues or pull requests.
-
-All contributors must follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-We especially welcome help with:
-- official source verification,
-- multilingual review,
-- accessibility,
-- provenance tracking,
-- validation tooling,
-- and documentation.
-
----
-
-## Governance
-
-Clarvia is maintained by **CLARVIA ASBL**, a Luxembourg non-profit association.
-
-See [GOVERNANCE.md](GOVERNANCE.md) for project governance and publication standards.
-
----
-
-## Security
-
-To report a vulnerability or sensitive issue, please see [SECURITY.md](SECURITY.md).
-
----
-
-## License
+## Licensing
 
 Unless otherwise specified:
 
-- Content and workflow data are licensed under **CC BY 4.0**
-- Code and tooling are licensed under **Apache-2.0**
+- content, documentation, and workflow data are licensed under Creative Commons Attribution 4.0 International;
+- code and tooling are licensed under Apache License 2.0.
 
-See individual repositories for details.
+Individual repositories may include more specific licensing information.
