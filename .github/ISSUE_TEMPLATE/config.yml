@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General question
+    url: https://clarvia.org
+    about: Visit clarvia.org for project information or email contact@clarvia.org.
+  - name: 🔒 Security vulnerability
+    url: https://github.com/clarvia-org/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Report privately to security@clarvia.org.

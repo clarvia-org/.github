@@ -1,0 +1,44 @@
+name: 📄 Source Addition
+description: Propose a new official source to back an existing workflow task.
+labels: ["source", "data"]
+body:
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Which country's workflow does this source apply to?
+      placeholder: "e.g. LU"
+    validations:
+      required: true
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      description: The task ID this source supports (e.g. 1.3, 3.2).
+      placeholder: "e.g. 1.3"
+    validations:
+      required: true
+  - type: textarea
+    id: source_details
+    attributes:
+      label: Source details
+      description: |
+        Provide the full citation. Include:
+        - Title of the law, regulation, or official page
+        - URL (if available)
+        - Date accessed
+        - Relevant article or section number
+      placeholder: |
+        Loi du 1er août 1972 portant réglementation de l'inhumation et de la crémation
+        Art. 5 — declaration of death within 24 hours
+        https://legilux.public.lu/eli/etat/leg/loi/1972/08/01/n1/jo
+        Accessed: 2026-05-14
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that helps us verify and integrate this source.
+    validations:
+      required: false

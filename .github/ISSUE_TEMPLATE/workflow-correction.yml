@@ -1,0 +1,48 @@
+name: ⚠️ Workflow Correction
+description: Report an error in a workflow task (wrong deadline, missing step, incorrect prerequisite).
+labels: ["correction", "data"]
+body:
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Which country's workflow is affected?
+      placeholder: "e.g. LU"
+    validations:
+      required: true
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      description: The task ID that is incorrect (e.g. 1.3, 3.2). Leave blank if reporting a missing task.
+      placeholder: "e.g. 2.1"
+    validations:
+      required: false
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: Type of error
+      options:
+        - Incorrect deadline
+        - Wrong or missing prerequisite
+        - Missing task
+        - Outdated legal reference
+        - Incorrect institution or contact
+        - Translation error
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is incorrect?
+      description: Describe the error and what the correct information should be.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source
+      description: Link or citation to the correct legal source, if you have one.
+    validations:
+      required: false
