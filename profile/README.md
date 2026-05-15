@@ -87,6 +87,16 @@ Private operational materials, reviewer coordination, grant planning, and sensit
 
 ---
 
+## Digital commons fit
+
+Clarvia is being built as open public-interest infrastructure.
+
+The goal is not only to publish helpful checklists, but to maintain reusable source-backed workflow data, schemas, validation tools, documentation, and machine-readable exports that others can inspect, reuse, translate, improve, and build on.
+
+This makes Clarvia relevant to the digital commons: the same verified workflow data can support accessible public websites, nonprofit tools, research, responsible assisted workflows, and future public API views without locking the knowledge into a single private service.
+
+---
+
 ## Contributing
 
 Please read our [Contributing Guide](../CONTRIBUTING.md) before submitting issues or pull requests.
