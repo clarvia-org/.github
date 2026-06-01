@@ -6,6 +6,7 @@ Clarvia currently maintains the following public repositories:
 
 | Repository | Supported |
 |---|---|
+| `clarvia-graph` | Yes |
 | `workflow-data` | Yes |
 | `workflow-web` | Yes |
 | `.github` | Yes |

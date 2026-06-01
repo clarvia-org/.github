@@ -4,7 +4,7 @@ Clarvia is maintained by **CLARVIA ASBL**, a Luxembourg non-profit association.
 
 Clarvia's public repositories support open public-interest infrastructure for verified, source-backed bereavement administration.
 
-This document describes how project decisions are made, how workflow content is reviewed, and how publication standards are maintained.
+This document describes how project decisions are made and how publication standards are maintained. For repository-specific contribution guidelines, see the `CONTRIBUTING.md` in each repository.
 
 ---
 
@@ -16,7 +16,7 @@ The project focuses on:
 
 - official-source-backed administrative guidance,
 - provenance and review metadata,
-- structured workflow data,
+- structured consequence graphs,
 - multilingual public outputs,
 - machine-readable exports,
 - and cross-border interoperability.
@@ -25,113 +25,51 @@ Clarvia does not provide individualized legal advice.
 
 ---
 
-## Repository roles
-
-Clarvia currently maintains the following public repositories:
+## Repositories
 
 | Repository | Purpose |
 |---|---|
-| `workflow-data` | Source-backed workflow data, schemas, provenance, exports, and validation |
-| `workflow-web` | Static web layer for publishing workflows, checklists, and generated API views |
-| `.github` | Organization-wide community health files and templates |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
+| [`.github`](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
 
 Private operational material is maintained separately and is not part of the public project repositories.
 
 ---
 
-## Maintainers
+## Roles
 
-Maintainers are responsible for:
+### Maintainers
 
-- repository administration,
-- reviewing pull requests,
-- enforcing contribution standards,
-- maintaining data quality,
-- protecting publication integrity,
-- and coordinating expert review where needed.
+Maintainers are responsible for repository administration, reviewing pull requests, enforcing contribution standards, maintaining data quality, protecting publication integrity, and coordinating expert review where needed.
 
 Maintainers may merge, close, request changes, or defer contributions based on project scope, quality, provenance, and review requirements.
 
----
+### Reviewers
 
-## Reviewers
-
-Reviewers may help assess:
-
-- source accuracy,
-- workflow correctness,
-- jurisdiction-specific administrative requirements,
-- translation quality,
-- accessibility,
-- or technical implementation.
-
-Reviewer participation may be public or private depending on the nature of the review.
+Reviewers may help assess source accuracy, workflow correctness, jurisdiction-specific requirements, translation quality, accessibility, or technical implementation.
 
 A reviewer's involvement does not automatically make them a maintainer.
 
----
+### Contributors
 
-## Contributors
+Contributors may submit issues, pull requests, source additions, workflow corrections, translations, documentation improvements, tooling improvements, and accessibility fixes.
 
-Contributors may submit:
-
-- issues,
-- pull requests,
-- source additions,
-- workflow corrections,
-- translations,
-- documentation improvements,
-- tooling improvements,
-- and accessibility fixes.
-
-Contributions must follow:
-
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- applicable repository validation rules
+Contributions must follow the applicable repository's `CONTRIBUTING.md` and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ---
 
 ## Publication standards
 
-Clarvia uses a conservative publication model.
+Clarvia uses a conservative publication model. No consequence or checklist item should be published unless it is backed by an approved source assertion.
 
-A workflow item should not be published unless it has:
+Each repository defines its own review and publication model:
 
-- an official or authoritative source,
-- jurisdiction metadata,
-- language metadata,
-- access date,
-- provenance information,
-- verification status,
-- and maintainer review.
+- **clarvia-graph** uses `review_status` for source assertions and `authoring_status` for graph records. See its [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) for details.
+- **workflow-data** uses its own verification states during the transition period.
 
-For high-impact workflow content, maintainers may require expert review before publication.
-
-High-impact content includes:
-
-- deadlines,
-- required administrative steps,
-- legal or tax-related administrative obligations,
-- cross-border branching rules,
-- inheritance or succession-related workflow logic,
-- and content that could materially affect a bereaved person's next action.
-
----
-
-## Verification states
-
-Clarvia workflow data may use the following verification states:
-
-- `discovered`
-- `structured-from-source`
-- `source-checked`
-- `expert-reviewed`
-- `published`
-- `stale-review`
-- `superseded`
-
-Only maintainers should mark content as `published`.
+For high-impact content (deadlines, required steps, legal obligations, cross-border rules, succession logic), maintainers may require expert review before publication.
 
 ---
 
@@ -141,69 +79,23 @@ Day-to-day project decisions are made by maintainers.
 
 Material governance, licensing, funding, partnership, or publication-policy decisions are made by CLARVIA ASBL according to its internal governance and legal obligations.
 
-Where possible, project decisions should be:
-
-- documented,
-- transparent,
-- reversible,
-- and aligned with the public-interest purpose of the project.
-
----
-
-## Changes to workflow data
-
-Changes to workflow data should be made through pull requests.
-
-Workflow-data pull requests should include:
-
-- source references,
-- explanation of the change,
-- affected jurisdiction,
-- affected workflow object,
-- validation status,
-- and review status.
-
-Maintainers may reject or defer workflow-data changes that are:
-
-- unsourced,
-- too broad,
-- difficult to verify,
-- outside project scope,
-- or likely to require expert review before publication.
-
----
-
-## Changes to schemas
-
-Schema changes should be treated carefully because they may affect exports, published pages, and downstream users.
-
-Schema pull requests should include:
-
-- rationale,
-- migration notes if needed,
-- examples,
-- validation updates,
-- and compatibility considerations.
-
-Breaking schema changes should be versioned.
+Where possible, project decisions should be documented, transparent, reversible, and aligned with the public-interest purpose of the project.
 
 ---
 
 ## AI-assisted work
 
-Clarvia may use AI-assisted workflows for:
+Clarvia may use AI-assisted workflows for source discovery, first-pass extraction, translation drafts, validation support, documentation drafts, and tooling assistance.
 
-- source discovery,
-- first-pass extraction,
-- translation drafts,
-- validation support,
-- documentation drafts,
-- issue drafting,
-- and tooling assistance.
+AI-generated output must not be published without human review. AI-generated factual content must be checked against official or authoritative sources before publication.
 
-AI-generated output must not be published without human review.
+---
 
-AI-generated factual content must be checked against official or authoritative sources before publication.
+## Contributor agreement
+
+Clarvia uses the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). Contributors certify they have the right to submit work under the project's licenses by signing off commits with `git commit -s`.
+
+Clarvia does not use a Contributor License Agreement (CLA).
 
 ---
 
@@ -211,33 +103,15 @@ AI-generated factual content must be checked against official or authoritative s
 
 Contributors, reviewers, and maintainers should disclose conflicts of interest that may affect their work on Clarvia.
 
-Examples may include:
-
-- paid work for an institution affected by a workflow,
-- legal or professional duties related to reviewed content,
-- organizational partnerships,
-- grant relationships,
-- or personal involvement in a reviewed matter.
-
-Disclosure does not automatically prevent participation.
-
-Maintainers may adjust review responsibilities where needed.
+Disclosure does not automatically prevent participation. Maintainers may adjust review responsibilities where needed.
 
 ---
 
 ## Corrections and retractions
 
-Clarvia should correct errors promptly.
+Clarvia should correct errors promptly through issues, pull requests, changelog entries, or review-status updates.
 
-Corrections may be handled through:
-
-- workflow correction issues,
-- pull requests,
-- changelog entries,
-- review-status updates,
-- or published correction notes.
-
-Content may be marked `stale-review` or `superseded` when a source changes, a review expires, or a workflow item is no longer reliable.
+Content may be marked stale or superseded when a source changes, a review expires, or a workflow item is no longer reliable.
 
 ---
 
@@ -245,7 +119,9 @@ Content may be marked `stale-review` or `superseded` when a source changes, a re
 
 Unless otherwise specified:
 
-- content, documentation, and workflow data are licensed under Creative Commons Attribution 4.0 International;
-- code and tooling are licensed under Apache License 2.0.
+- content, documentation, and graph data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**;
+- code and tooling in `clarvia-graph` are licensed under **European Union Public Licence 1.2 (EUPL-1.2)**;
+- code and tooling in other repositories are licensed under **Apache License 2.0**;
+- schemas and vocabularies are licensed under **CC0 or Apache-2.0**.
 
 Individual repositories may include more specific licensing information.

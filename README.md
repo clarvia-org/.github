@@ -76,7 +76,8 @@ It does not provide individualized legal advice.
 
 Unless otherwise specified:
 
-- content, documentation, and workflow data are licensed under Creative Commons Attribution 4.0 International;
-- code and tooling are licensed under Apache License 2.0.
+- content, documentation, and graph data are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0);
+- code and tooling in `clarvia-graph` are licensed under European Union Public Licence 1.2 (EUPL-1.2);
+- code and tooling in other repositories are licensed under Apache License 2.0.
 
 Individual repositories may include more specific licensing information.
