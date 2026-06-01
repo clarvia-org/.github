@@ -80,10 +80,12 @@ The checklist and heritage-folder ideas share the same principle: reduce confusi
 
 | Repository | Description |
 |---|---|
-| [workflow-data](https://github.com/clarvia-org/workflow-data) | Source-backed workflow data, schemas, provenance, exports, and validation |
-| [workflow-web](https://github.com/clarvia-org/workflow-web) | Static web layer for publishing workflows, checklists, and generated API views |
+| [clarvia-graph](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
+| [workflow-data](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
+| [workflow-web](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
+| [.github](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
 
-The public repositories currently provide the foundation for Clarvia's workflow model, publishing layer, and contributor process. They are intentionally early: the goal is to build the first Luxembourg service on top of this foundation, not to present finished public guidance before sources and review processes are ready.
+The public repositories provide the foundation for Clarvia's workflow model, data infrastructure, publishing layer, and contributor process. They are intentionally early: the goal is to build the first Luxembourg service on top of this foundation, not to present finished public guidance before sources and review processes are ready.
 
 Private operational materials, reviewer coordination, grant planning, and sensitive working documents are maintained outside the public repositories.
 
@@ -143,7 +145,9 @@ To report a vulnerability or sensitive issue, please see [SECURITY.md](../SECURI
 
 Unless otherwise specified:
 
-- Content, documentation, and workflow data are licensed under **Creative Commons Attribution 4.0 International**
-- Code and tooling are licensed under **Apache License 2.0**
+- Content, documentation, and workflow data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**
+- Code and tooling in `clarvia-graph` are licensed under **European Union Public Licence 1.2 (EUPL-1.2)**
+- Code and tooling in other repositories are licensed under **Apache License 2.0**
+- Schemas and vocabularies are licensed under **CC0 or Apache-2.0**
 
 See individual repositories for details.

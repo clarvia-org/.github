@@ -42,8 +42,10 @@ Individual repositories may override these defaults when repository-specific gui
 
 | Repository | Purpose |
 |---|---|
-| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Source-backed workflow data, schemas, provenance, exports, and validation |
-| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Static web layer for publishing workflows, checklists, and generated API views |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
+| [`.github`](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
 
 ---
 
