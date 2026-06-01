@@ -1,8 +1,10 @@
 # Clarvia GitHub defaults
 
-This repository contains default community health files and templates for the Clarvia GitHub organization.
+This is the shared home for how we work together across all [Clarvia](https://clarvia.org) repositories. It holds the contribution guidelines, code of conduct, governance, and security policies that apply to every Clarvia project.
 
-These files help standardize contribution, review, governance, support, and security practices across Clarvia's public repositories.
+---
+
+This repository contains default community health files and templates for the Clarvia GitHub organization. These files help standardize contribution, review, governance, support, and security practices across Clarvia's public repositories.
 
 ---
 
