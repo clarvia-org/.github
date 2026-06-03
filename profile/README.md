@@ -60,6 +60,20 @@ As the model matures, guidance for other European countries can be added respons
 
 ---
 
+## Development model
+
+Clarvia is being developed through a phased, delivery-first model.
+
+Because bereavement guidance is urgently needed, we are not waiting for external funding cycles to complete before building. We use internal resources to create early proof-of-concept, alpha, and beta versions that validate assumptions, expose gaps, and test limited, clearly marked early guidance where appropriate.
+
+This early work is not a substitute for funded development. It is a way to reduce delivery risk and demonstrate that the project can execute.
+
+Funding will support the next phase: turning early working versions into reliable public-interest infrastructure. That includes source review, expert validation, localization, accessibility, security, testing, documentation, governance, maintainability, and long-term sustainability.
+
+In short: early development proves momentum and feasibility; funded development makes the service more robust, validated, scalable, and sustainable.
+
+---
+
 ## What Clarvia is building
 
 Clarvia has two connected public-service goals.
