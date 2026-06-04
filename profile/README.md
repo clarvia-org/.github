@@ -2,6 +2,19 @@
 
 [clarvia.org](https://clarvia.org) · [clarvia.eu](https://clarvia.eu)
 
+[![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
+
+<details>
+<summary>📸 Alpha checklist preview</summary>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/clarvia-org/clarvia-graph/main/docs/images/checklist-alpha-preview.png" alt="Clarvia bereavement checklist — alpha preview" width="720">
+
+> Try the living demo at [clarvia.org/en/checklist](https://clarvia.org/en/checklist)
+
+</details>
+
 Clarvia is open workflow infrastructure for verified, source-backed bereavement administration across Europe. It publishes structured workflow data - schemas, provenance, verification states, and machine-readable exports - as a reusable commons. Families, civic-tech teams, NGOs, and public bodies can build on it to help people navigate complex administrative situations after a death.
 
 When someone dies, administrative requirements are scattered across public offices, banks, insurers, pension systems, employers, and cross-border institutions. No structured, machine-readable, openly licensed dataset of these workflows exists. Clarvia fills that gap - turning fragmented administrative guidance into structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
