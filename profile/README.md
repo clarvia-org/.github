@@ -1,21 +1,8 @@
 # Clarvia
 
-[clarvia.org](https://clarvia.org) · [clarvia.eu](https://clarvia.eu)
+**Open bereavement workflow infrastructure for Europe**
 
-[![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
-
-<details>
-<summary>📸 Alpha checklist preview</summary>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/clarvia-org/clarvia-graph/main/docs/images/checklist-alpha-preview.png" alt="Clarvia bereavement checklist — alpha preview" width="720">
-
-> Try the living demo at [clarvia.org/en/checklist](https://clarvia.org/en/checklist)
-
-</details>
-
-Clarvia is open workflow infrastructure for verified, source-backed bereavement administration across Europe. It publishes structured workflow data - schemas, provenance, verification states, and machine-readable exports - as a reusable commons. Families, civic-tech teams, NGOs, and public bodies can build on it to help people navigate complex administrative situations after a death.
+Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
 
 When someone dies, administrative requirements are scattered across public offices, banks, insurers, pension systems, employers, and cross-border institutions. No structured, machine-readable, openly licensed dataset of these workflows exists. Clarvia fills that gap - turning fragmented administrative guidance into structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
 
@@ -31,9 +18,8 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 |---|---|---|
 | [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Canonical data engine — schemas, graph data, validation, and exports | EUPL-1.2 (code) · CC-BY-4.0 (data) |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web application at [clarvia.org](https://clarvia.org) | Apache-2.0 |
-| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist corpus (migration source for `clarvia-graph`) | Apache-2.0 |
 
-> `clarvia-graph` is the canonical technical engine. `workflow-data` is the legacy migration source only. `workflow-web` consumes graph exports at build time.
+> `clarvia-graph` is the canonical technical engine. `workflow-web` consumes graph exports at build time.
 
 ---
 
