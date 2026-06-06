@@ -25,6 +25,16 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 
 > Clarvia provides administrative guidance based on official sources. It is not a substitute for individualized legal advice.
 
+## Repositories
+
+| Repository | Role | License |
+|---|---|---|
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Canonical data engine — schemas, graph data, validation, and exports | EUPL-1.2 (code) · CC-BY-4.0 (data) |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web application at [clarvia.org](https://clarvia.org) | EUPL-1.2 |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist corpus (migration source for `clarvia-graph`) | EUPL-1.2 |
+
+> `clarvia-graph` is the canonical technical engine. `workflow-data` is the legacy migration source only. `workflow-web` consumes graph exports at build time.
+
 ---
 
 ## How it works
