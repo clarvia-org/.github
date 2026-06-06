@@ -5,6 +5,8 @@
 [![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13112/badge)](https://www.bestpractices.dev/projects/13112)
 
+> **Status:** [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [Alpha checklist live](https://clarvia.org/en/checklist)
+
 Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
 
 When someone dies, administrative requirements are scattered across public offices, banks, insurers, pension systems, employers, and cross-border institutions. No structured, machine-readable, openly licensed dataset of these workflows exists. Clarvia fills that gap - turning fragmented administrative guidance into structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
