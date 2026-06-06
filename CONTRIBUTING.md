@@ -13,7 +13,6 @@ Each repository has its own contributor guide with specific instructions:
 | Repository | Focus | Guide |
 |---|---|---|
 | [clarvia-graph](https://github.com/clarvia-org/clarvia-graph) | Consequence graph — sources, assertions, schemas, validation | [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) |
-| [workflow-data](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source checks, corrections, translations | See repo issues |
 | [workflow-web](https://github.com/clarvia-org/workflow-web) | Website — frontend, accessibility, static generation | See repo issues |
 
 If you're not sure where to start, browse [good first issues across the org](https://github.com/search?q=org%3Aclarvia-org+label%3A%22good-first-issue%22+is%3Aopen&type=issues).
