@@ -30,8 +30,8 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 | Repository | Role | License |
 |---|---|---|
 | [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Canonical data engine — schemas, graph data, validation, and exports | EUPL-1.2 (code) · CC-BY-4.0 (data) |
-| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web application at [clarvia.org](https://clarvia.org) | EUPL-1.2 |
-| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist corpus (migration source for `clarvia-graph`) | EUPL-1.2 |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web application at [clarvia.org](https://clarvia.org) | Apache-2.0 |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist corpus (migration source for `clarvia-graph`) | Apache-2.0 |
 
 > `clarvia-graph` is the canonical technical engine. `workflow-data` is the legacy migration source only. `workflow-web` consumes graph exports at build time.
 
@@ -110,21 +110,6 @@ Clear, source-backed guidance to help families understand practical administrati
 Bereavement is not only administrative. Families may also need a dignified way to preserve important information, wishes, memories, stories, photos, contacts, and practical details that should not be lost during a difficult time.
 
 The checklist and heritage-folder ideas share the same principle: reduce confusion, preserve what matters, and help families during a hard moment.
-
----
-
-## Repositories
-
-| Repository | Description |
-|---|---|
-| [clarvia-graph](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
-| [workflow-data](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
-| [workflow-web](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
-| [.github](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
-
-The public repositories provide the foundation for Clarvia's workflow model, data infrastructure, publishing layer, and contributor process. They are intentionally early: the goal is to build the first Luxembourg service on top of this foundation, not to present finished public guidance before sources and review processes are ready.
-
-Private operational materials, reviewer coordination, grant planning, and sensitive working documents are maintained outside the public repositories.
 
 ---
 
