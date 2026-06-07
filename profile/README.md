@@ -4,13 +4,15 @@
 
 [![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13112/badge)](https://www.bestpractices.dev/projects/13112)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/clarvia-org/clarvia-graph/badge)](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph)
+[![REUSE](https://api.reuse.software/badge/github.com/clarvia-org/clarvia-graph)](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20572455-blue)](https://doi.org/10.5281/zenodo.20572455)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu)
 [![License: EUPL-1.2](https://img.shields.io/badge/Code_(graph)-EUPL--1.2-blue.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE)
 [![License: Apache-2.0](https://img.shields.io/badge/Code_(web)-Apache--2.0-blue.svg)](https://github.com/clarvia-org/workflow-web/blob/main/LICENSE)
 [![License: CC-BY-4.0](https://img.shields.io/badge/Data-CC--BY--4.0-green.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE-DATA)
 
-> **Status:** [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Data: CC-BY-4.0
+> **Status:** [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Data: CC-BY-4.0
 
 Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
 
