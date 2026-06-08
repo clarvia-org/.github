@@ -18,11 +18,15 @@ Private operational repositories are not covered by this public security policy.
 
 Please do not report security vulnerabilities through public GitHub issues.
 
-If GitHub private vulnerability reporting is enabled for the affected repository, use that channel.
+GitHub private vulnerability reporting is enabled for all supported
+repositories. Use the links below to report a vulnerability:
 
-If private vulnerability reporting is not available, report the issue privately to a Clarvia maintainer or organization owner.
+- [Report for **clarvia-graph**](https://github.com/clarvia-org/clarvia-graph/security/advisories/new)
+- [Report for **workflow-web**](https://github.com/clarvia-org/workflow-web/security/advisories/new)
+- [Report for **.github**](https://github.com/clarvia-org/.github/security/advisories/new)
 
-A dedicated security reporting address will be published once available.
+If private vulnerability reporting is not available, report the issue
+privately to a Clarvia maintainer or organization owner.
 
 ---
 
