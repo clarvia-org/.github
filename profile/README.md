@@ -3,6 +3,7 @@
 **Open bereavement workflow infrastructure for Europe**
 
 [![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
+
 [![CI (graph)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml)
 [![CI (web)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml/badge.svg)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13112/badge)](https://www.bestpractices.dev/projects/13112)
