@@ -3,6 +3,8 @@
 **Open bereavement workflow infrastructure for Europe**
 
 [![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
+[![CI (graph)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml)
+[![CI (web)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml/badge.svg)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13112/badge)](https://www.bestpractices.dev/projects/13112)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/clarvia-org/clarvia-graph/badge)](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph)
 [![REUSE](https://api.reuse.software/badge/github.com/clarvia-org/clarvia-graph)](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph)
@@ -14,7 +16,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/Code_(web)-Apache--2.0-blue.svg)](https://github.com/clarvia-org/workflow-web/blob/main/LICENSE)
 [![License: CC-BY-4.0](https://img.shields.io/badge/Data-CC--BY--4.0-green.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE-DATA)
 
-> **Status:** [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Data: CC-BY-4.0
+> **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Data: CC-BY-4.0
 
 Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
 
