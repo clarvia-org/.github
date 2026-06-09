@@ -176,3 +176,19 @@ Unless otherwise specified:
 - Schemas and vocabularies are licensed under **CC0 or Apache-2.0**
 
 See individual repositories for details.
+
+---
+
+## Recognition
+
+Clarvia gratefully acknowledges the support of GitHub for Nonprofits, which provides eligible nonprofit organizations with access to GitHub tools and benefits that help mission-driven teams build, collaborate, and scale their impact.
+
+These benefits help us develop Clarvia's technology platform more efficiently, so we can focus our resources on supporting bereaved families free of charge.
+
+---
+
+## Contact
+
+For questions, collaboration, or repository-specific feedback, please open an issue in the relevant repository.
+
+For non-public matters, please contact us through the official [Clarvia website](https://clarvia.org).
