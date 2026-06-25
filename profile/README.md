@@ -29,6 +29,16 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 
 > Clarvia provides administrative guidance based on official sources. It is not a substitute for individualized legal advice.
 
+---
+
+## Follow Our Journey
+
+We are building practical support to ensure no one has to figure out the practical side of loss alone. You can follow our journey and watch our progress on [YouTube](https://www.youtube.com/channel/UCQt8JlIa-fBlV9s4_6hHsAg/).
+
+[![Watch our introductory Short on YouTube](https://img.youtube.com/vi/qMbWLmpjJMA/0.jpg)](https://www.youtube.com/shorts/qMbWLmpjJMA)
+
+---
+
 ## Repositories
 
 | Repository | Role | License |
