@@ -35,7 +35,7 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 
 We are building practical support to ensure no one has to figure out the practical side of loss alone. You can follow our journey and watch our progress on [YouTube](https://www.youtube.com/channel/UCQt8JlIa-fBlV9s4_6hHsAg/).
 
-[![Watch our introductory Short on YouTube](https://img.youtube.com/vi/qMbWLmpjJMA/0.jpg)](https://www.youtube.com/shorts/qMbWLmpjJMA)
+[![Watch our playlist on YouTube](https://i.ytimg.com/vi/qMbWLmpjJMA/oar2.jpg?sqp=-oaymwEbCJUDEOAESFqQAgHyq4qpAwoIARUAAIhCyAEB&rs=AOn4CLB8pSNcttc28yPmKXiSDjpmfJ5U2A&usqp=CCk)](https://www.youtube.com/playlist?list=PLPvk31TQlhyg)
 
 ---
 
