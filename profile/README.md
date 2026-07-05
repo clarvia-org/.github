@@ -189,11 +189,18 @@ See individual repositories for details.
 
 ---
 
-## Recognition
+## Recognition and Supporters
 
-Clarvia gratefully acknowledges the support of GitHub for Nonprofits, which provides eligible nonprofit organizations with access to GitHub tools and benefits that help mission-driven teams build, collaborate, and scale their impact.
+### Infrastructure Support
 
-These benefits help us develop Clarvia's technology platform more efficiently, so we can focus our resources on supporting bereaved families free of charge.
+Clarvia gratefully acknowledges the support of GitHub for Nonprofits, which provides eligible nonprofit organizations with access to GitHub tools and benefits that help mission-driven teams build, collaborate, and scale their impact. These benefits help us develop Clarvia's technology platform more efficiently, so we can focus our resources on supporting bereaved families free of charge.
+
+### Supporters and Pilot Partners
+
+We are incredibly grateful to the organizations endorsing our public-interest mission and collaborating on practical implementation:
+
+- **[Trauerwee ASBL](https://trauerwee.lu)**: A Luxembourg non-profit supporting bereaved children, young people, and their families. Trauerwee ASBL has formally endorsed our mission and plans to participate in our future bereavement pilot.
+- **[TSC Real Estate](https://www.tsc-realestate.de/en/)**: A leading European healthcare real estate investment manager, supporting Clarvia's mission to make essential post-bereavement administrative information structured, open, and free.
 
 ---
 
