@@ -8,6 +8,7 @@ Clarvia currently maintains the following public repositories:
 |---|---|
 | `clarvia-graph` | Yes |
 | `workflow-web` | Yes |
+| `lex` | Yes |
 | `.github` | Yes |
 
 Private operational repositories are not covered by this public security policy.
@@ -23,6 +24,7 @@ repositories. Use the links below to report a vulnerability:
 
 - [Report for **clarvia-graph**](https://github.com/clarvia-org/clarvia-graph/security/advisories/new)
 - [Report for **workflow-web**](https://github.com/clarvia-org/workflow-web/security/advisories/new)
+- [Report for **lex**](https://github.com/clarvia-org/lex/security/advisories/new)
 - [Report for **.github**](https://github.com/clarvia-org/.github/security/advisories/new)
 
 If private vulnerability reporting is not available, report the issue
