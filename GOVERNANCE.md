@@ -32,6 +32,7 @@ Clarvia does not provide individualized legal advice.
 | [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
 | [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
+| [`lex`](https://github.com/clarvia-org/lex) | Open legal-data infrastructure — normalized national legislation for AI agents |
 | [`.github`](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
 
 Private operational material is maintained separately and is not part of the public project repositories.

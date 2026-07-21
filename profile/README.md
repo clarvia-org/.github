@@ -6,6 +6,7 @@
 
 [![CI (graph)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml)
 [![CI (web)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml/badge.svg)](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml)
+[![CI (lex)](https://github.com/clarvia-org/lex/actions/workflows/ci.yml/badge.svg)](https://github.com/clarvia-org/lex/actions/workflows/ci.yml)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13112/badge)](https://www.bestpractices.dev/projects/13112)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/clarvia-org/clarvia-graph/badge)](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph)
 [![REUSE](https://api.reuse.software/badge/github.com/clarvia-org/clarvia-graph)](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph)
@@ -15,9 +16,10 @@
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu)
 [![License: EUPL-1.2](https://img.shields.io/badge/Code_(graph)-EUPL--1.2-blue.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE)
 [![License: Apache-2.0](https://img.shields.io/badge/Code_(web)-Apache--2.0-blue.svg)](https://github.com/clarvia-org/workflow-web/blob/main/LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/Code_(lex)-Apache--2.0-blue.svg)](https://github.com/clarvia-org/lex/blob/main/LICENSE)
 [![License: CC-BY-4.0](https://img.shields.io/badge/Data-CC--BY--4.0-green.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE-DATA)
 
-> **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Data: CC-BY-4.0
+> **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/workflow-web/actions/workflows/validate.yml) · [CI (lex): passing](https://github.com/clarvia-org/lex/actions/workflows/ci.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web code: Apache-2.0 · Lex code: Apache-2.0 · Data: CC-BY-4.0
 
 Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
 
@@ -45,6 +47,7 @@ We are building practical support to ensure no one has to figure out the practic
 |---|---|---|
 | [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Canonical data engine — schemas, graph data, validation, and exports | EUPL-1.2 (code) · CC-BY-4.0 (data) |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web application at [clarvia.org](https://clarvia.org) | Apache-2.0 |
+| [`lex`](https://github.com/clarvia-org/lex) | Open legal-data infrastructure — normalized national legislation for AI agents | Apache-2.0 |
 
 > `clarvia-graph` is the canonical technical engine. `workflow-web` consumes graph exports at build time.
 
@@ -182,6 +185,7 @@ Unless otherwise specified:
 
 - Content, documentation, and workflow data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**
 - Code and tooling in `clarvia-graph` are licensed under **European Union Public Licence 1.2 (EUPL-1.2)**
+- Code and tooling in `lex` are licensed under **Apache License 2.0**
 - Code and tooling in other repositories are licensed under **Apache License 2.0**
 - Schemas and vocabularies are licensed under **CC0 or Apache-2.0**
 

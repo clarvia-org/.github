@@ -14,6 +14,7 @@ Each repository has its own contributor guide with specific instructions:
 |---|---|---|
 | [clarvia-graph](https://github.com/clarvia-org/clarvia-graph) | Consequence graph — sources, assertions, schemas, validation | [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) |
 | [workflow-web](https://github.com/clarvia-org/workflow-web) | Website — frontend, accessibility, static generation | See repo issues |
+| [lex](https://github.com/clarvia-org/lex) | Legislation — normalized law from official sources, adapter pattern | [CONTRIBUTING.md](https://github.com/clarvia-org/lex/blob/main/CONTRIBUTING.md) |
 
 If you're not sure where to start, browse [good first issues across the org](https://github.com/search?q=org%3Aclarvia-org+label%3A%22good-first-issue%22+is%3Aopen&type=issues).
 
