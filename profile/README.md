@@ -21,11 +21,11 @@
 
 > **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-web.yml) · [CI (lex): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-lex.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web / Lex code: Apache-2.0 · Data: CC-BY-4.0
 
-Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help people navigate complex administrative situations after a death.
+Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help families navigate complex administrative situations after a terminal illness diagnosis or a death.
 
 When someone dies, administrative requirements are scattered across public offices, banks, insurers, pension systems, employers, and cross-border institutions. No structured, machine-readable, openly licensed dataset of these workflows exists. Clarvia fills that gap - turning fragmented administrative guidance into structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
 
-The first service is being built and validated in Luxembourg, where Clarvia ASBL is founded. Luxembourg is also a strong first implementation because many real family situations are multilingual, cross-border, and connected to neighbouring countries.
+Today, [clarvia.org](https://clarvia.org) serves families through **Ask Clarvia** (live source-cited email answers), a **1,000-page multilingual guidance library across 196 countries and 14 languages** covering terminal illness and bereavement administration, and an **interactive bereavement checklist** launched first in Luxembourg, where Clarvia ASBL is founded.
 
 The long-term goal is reusable European bereavement workflow infrastructure that can support human-readable checklists, machine-readable exports, responsible assisted workflows, and lightweight public API views.
 
@@ -57,7 +57,7 @@ We are building practical support to ensure no one has to figure out the practic
 
 Clarvia separates what families see from how the information is maintained.
 
-Families should eventually see simple, accessible checklists. Underneath, Clarvia models bereavement administration as structured workflow data so that each step can be traced to sources, reviewed, translated, updated, and reused responsibly.
+Families see clear, accessible guidance and checklists (`Ask Clarvia`, the 1,000-page guidance library across 196 countries and 14 languages, and the interactive checklist). Underneath, Clarvia continuously validates and improves its published guidance through automated checks, hallucination prevention, staff review, and GitHub volunteers, while expanding `Clarvia Graph` and the normalized legislation corpus (`lex/`) as resources and funding grow.
 
 Each workflow can include:
 - administrative tasks,
@@ -95,7 +95,7 @@ The Luxembourg service should recognise international realities from the beginni
 
 ### Future direction
 
-As the model matures, guidance for other European countries can be added responsibly. France, Belgium, Germany, Portugal, and other jurisdictions should be treated as future or Luxembourg-relevant source-mapping areas, not as current public guidance.
+Clarvia's published guidance library on [clarvia.org](https://clarvia.org/en/guidance) covers 592 guides (1,000 localized pages) across 196 countries and cross-border corridors in 14 languages, continuously improved by staff and open-source contributors. Formal `Clarvia Graph` consequence-graph data and normalized `lex/` legislation datasets expand across additional European jurisdictions (such as France, Belgium, Germany, and Portugal) as dedicated resources and funding allow.
 
 ---
 
@@ -165,7 +165,7 @@ The first service is Luxembourg-focused, but the underlying model is designed so
 
 Clarvia is maintained by **CLARVIA ASBL**, a Luxembourg non-profit association.
 
-The project was initiated by Günther Schriver and Tommi Lindfors as a public-interest effort to reduce the administrative and human burden families face after bereavement.
+The project was founded by two unpaid co-founders (Günther Schriver and Tommi Lindfors) and is supported by core staff (1 FTE) and open-source contributors as a public-interest effort to reduce the administrative and human burden families face during terminal illness and bereavement.
 
 Public accountability is provided through open repositories, documented methodology, source provenance, review metadata, correction paths, transparent licensing, and CLARVIA ASBL governance.
 
