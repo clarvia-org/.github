@@ -44,10 +44,10 @@ Individual repositories may override these defaults when repository-specific gui
 
 | Repository | Purpose |
 |---|---|
-| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | Open consequence graph — schemas, validation, sources, provenance, and machine-readable exports |
-| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | Legacy checklist data — source-backed bereavement workflows and migration source |
-| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | Consumer web layer for publishing checklists and workflow views |
-| [`lex`](https://github.com/clarvia-org/lex) | Open legal-data infrastructure — normalized national legislation for AI agents |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph, website (`apps/web`), legislation corpus (`lex/`), and Lex email service (`services/lex/`) |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | **Archived** — legacy checklist data migrated into `clarvia-graph` |
+| [`workflow-web`](https://github.com/clarvia-org/workflow-web) | **Archived** — merged into [`clarvia-graph/apps/web`](https://github.com/clarvia-org/clarvia-graph/tree/main/apps/web) |
+| [`lex`](https://github.com/clarvia-org/lex) | **Archived** — merged into [`clarvia-graph/lex`](https://github.com/clarvia-org/clarvia-graph/tree/main/lex) |
 | [`.github`](https://github.com/clarvia-org/.github) | Organization-wide community health files, governance, and contributor templates |
 
 ---
