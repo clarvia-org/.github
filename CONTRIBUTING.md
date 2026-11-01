@@ -2,94 +2,78 @@
 
 Thank you for your interest in contributing to Clarvia.
 
-Clarvia builds open workflow infrastructure for bereavement administration across Europe. Every contribution — whether it improves source quality, workflow accuracy, accessibility, translations, documentation, or tooling — strengthens a reusable commons.
+Clarvia provides free, source-backed global guidance across 196 countries and 14 languages for terminal illness and bereavement administration, backed by open workflow infrastructure (`Clarvia Graph` and `lex/`). Every contribution — whether it improves source quality, guidance accuracy across any of our 592 country and cross-border guides, translations, accessibility, or validation tooling — directly helps families during a difficult time.
+
+Please read this guide and our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ---
 
 ## Where to contribute
 
-Each repository has its own contributor guide with specific instructions:
+All active development lives in the **[`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph)** monorepo:
 
-| Repository | Focus | Guide |
+| Area | Path in `clarvia-graph` | What to contribute |
 |---|---|---|
-| [clarvia-graph](https://github.com/clarvia-org/clarvia-graph) | Consequence graph — sources, assertions, schemas, validation | [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) |
-| [workflow-web](https://github.com/clarvia-org/workflow-web) | Website — frontend, accessibility, static generation | See repo issues |
-| [lex](https://github.com/clarvia-org/lex) | Legislation — normalized law from official sources, adapter pattern | [CONTRIBUTING.md](https://github.com/clarvia-org/lex/blob/main/CONTRIBUTING.md) |
+| **Global guidance & website** | [`apps/web/`](https://github.com/clarvia-org/clarvia-graph/tree/main/apps/web) | Source verification and updates across 1,000 guidance pages (196 countries, 200 cross-border corridors, 14 languages), UI, accessibility, i18n copy |
+| **Consequence graph** | [`graph/`](https://github.com/clarvia-org/clarvia-graph/tree/main/graph), [`sources/`](https://github.com/clarvia-org/clarvia-graph/tree/main/sources), [`schemas/`](https://github.com/clarvia-org/clarvia-graph/tree/main/schemas) | Source records, assertions, tasks, conditions, deadlines, validation rules |
+| **Legislation corpus** | [`lex/`](https://github.com/clarvia-org/clarvia-graph/tree/main/lex) | Normalized national legislation, country adapters, legal source verification |
+| **Lex email service** | [`services/lex/`](https://github.com/clarvia-org/clarvia-graph/tree/main/services/lex) | Public-safe service code and tests for Ask Clarvia (never secrets or live prompts) |
 
-If you're not sure where to start, browse [good first issues across the org](https://github.com/search?q=org%3Aclarvia-org+label%3A%22good-first-issue%22+is%3Aopen&type=issues).
-
----
-
-## Contribution principles
-
-These principles apply across all Clarvia repositories.
-
-### Source-backed contributions only
-
-All workflow-related contributions must be grounded in official or authoritative sources. Every published workflow item should be traceable to a source URL, jurisdiction, language, and access date.
-
-Unsourced legal or administrative assertions will not be merged.
-
-### Administrative guidance, not legal advice
-
-Clarvia does not provide individualized legal advice. Contributions should describe what official sources say and mark unresolved interpretation questions for maintainer or expert review.
-
-### Human review required
-
-AI-assisted workflows may be used internally, but AI-generated content must always be reviewed by a human before publication. Maintainers may request additional verification for jurisdiction-specific changes.
-
-### Keep contributions scoped
-
-Good contributions are focused, source-linked, testable, and easy to review. Avoid combining unrelated changes into a single pull request.
+See the [`clarvia-graph` CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) and [`docs/FIRST_CONTRIBUTION.md`](https://github.com/clarvia-org/clarvia-graph/blob/main/docs/FIRST_CONTRIBUTION.md) for detailed instructions and a step-by-step first-hour walkthrough.
 
 ---
 
-## Pull request process
+## How you can help (no coding required)
 
-1. Fork the relevant repository and create a branch from `main`.
-2. Make your changes with clear, atomic commits.
-3. Sign off your commits with `git commit -s` (Developer Certificate of Origin).
-4. Run existing validation and tests where applicable.
-5. Open a pull request using the repository's PR template.
+You do not need to be a developer to make a meaningful contribution:
 
-Maintainers will review submissions as capacity allows.
-
----
-
-## Contributor agreement
-
-Clarvia uses the [Developer Certificate of Origin (DCO)](https://developercertificate.org/), not a CLA. By signing off your commits, you certify you have the right to submit the work under the project's licenses.
+- **Find official sources** — Government pages, civil registries, social security portals, and tax authorities across any of the 196 countries and 200 cross-border corridors
+- **Check links** — Verify that official URLs in our guidance corpus and source registries are still working and current
+- **Report outdated guidance** — Flag when an official procedure, form, or deadline has changed
+- **Review clarity** — Suggest clearer, calmer wording for families navigating terminal illness or bereavement
+- **Translate** — Help review or improve translations across our 14 supported languages (`EN`, `FR`, `DE`, `LU`, `PT`, `ES`, `IT`, `NL`, `PL`, `RO`, `UK`, `AR`, `ZH`, `HI`)
+- **Test accessibility** — Keyboard navigation, screen readers, contrast, mobile layout
 
 ---
 
-## Code style
+## Core principles
 
-### TypeScript / JavaScript
+### 1. Official sources come first
 
-Follow the existing project conventions and configured tooling.
+Do not invent deadlines, legal requirements, eligibility rules, or institutional procedures. Every factual administrative claim must trace to an official or authoritative source.
 
-### JSON / YAML
+### 2. Drafts are welcome — mark them clearly
 
-- Use 2-space indentation.
-- Use UTF-8 encoding.
-- Prefer deterministic formatting.
+If you are not sure whether a claim is fully verified, mark it as draft. Unverified claims should never look like approved public guidance.
 
-### Markdown
+### 3. Plain, calm, respectful language
 
-Prefer clear, concise sections. Use one sentence per line where practical.
+Clarvia is for people under stress. Avoid jargon where plain words work, and preserve important legal or procedural distinctions.
+
+### 4. Never submit personal data
+
+Do not include real family cases, identity documents, death certificates, medical records, addresses, financial details, or private correspondence in issues, pull requests, or discussions.
+
+### 5. AI-assisted contributions must be disclosed
+
+If you used AI tools to help draft content, say so in your PR description and verify all factual claims against official sources before submitting.
 
 ---
 
-## Sensitive information
+## Submitting changes
 
-Do not submit personal bereavement cases, identity documents, death certificates, family details, addresses, medical or financial information, or private correspondence through public issues, pull requests, or discussions.
+1. Check existing issues in [`clarvia-org/clarvia-graph`](https://github.com/clarvia-org/clarvia-graph/issues) before starting large changes
+2. Keep pull requests focused on one topic
+3. Include source URLs and access dates for any factual changes
+4. Sign off your commits with `git commit -s` ([Developer Certificate of Origin](https://developercertificate.org/))
 
 ---
 
-## Code of Conduct
+## Licensing
 
-All participants must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+By contributing, you agree that your contributions will be licensed under the applicable repository license:
 
-## Questions
-
-See [SUPPORT.md](SUPPORT.md) for support channels.
+- **Content, documentation, guidance corpus, and graph data:** CC-BY-4.0
+- **Code in `clarvia-graph` (graph engine):** EUPL-1.2
+- **Code in `apps/web`, `lex/`, `services/lex/`, and other repositories:** Apache-2.0
+- **Schemas and vocabularies:** CC0 or Apache-2.0

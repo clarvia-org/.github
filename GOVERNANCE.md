@@ -2,7 +2,7 @@
 
 Clarvia is maintained by **CLARVIA ASBL**, a Luxembourg non-profit association.
 
-Clarvia's public repositories support open public-interest infrastructure for verified, source-backed bereavement administration.
+Clarvia's public repositories support open public-interest infrastructure and global multilingual guidance for verified, source-backed terminal illness and bereavement administration.
 
 This document describes how project decisions are made and how publication standards are maintained. For repository-specific contribution guidelines, see the `CONTRIBUTING.md` in each repository.
 
@@ -10,14 +10,14 @@ This document describes how project decisions are made and how publication stand
 
 ## Project purpose
 
-Clarvia exists to reduce administrative burden during bereavement by building reusable workflow infrastructure.
+Clarvia exists to reduce administrative burden during terminal illness and bereavement by providing free global guidance (Ask Clarvia, a 1,000-page guidance library across 196 countries and 14 languages, and an interactive checklist) backed by reusable open workflow infrastructure (`Clarvia Graph` and `lex/`).
 
 The project focuses on:
 
-- official-source-backed administrative guidance,
-- provenance and review metadata,
-- structured consequence graphs,
-- multilingual public outputs,
+- official-source-backed administrative guidance across 196 countries and 200 cross-border corridors,
+- provenance, citation validation, and review metadata,
+- structured consequence graphs and normalized legislation,
+- multilingual public outputs across 14 languages,
 - machine-readable exports,
 - and cross-border interoperability.
 
@@ -29,7 +29,7 @@ Clarvia does not provide individualized legal advice.
 
 | Repository | Purpose |
 |---|---|
-| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph, website (`apps/web`), legislation corpus (`lex/`), and Lex email service (`services/lex/`) |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph, website & 1,000-page guidance library (`apps/web`), legislation corpus (`lex/`), and Lex email service (`services/lex/`) |
 | [`workflow-data`](https://github.com/clarvia-org/workflow-data) | **Archived** — legacy checklist data migrated into `clarvia-graph` |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | **Archived** — merged into [`clarvia-graph/apps/web`](https://github.com/clarvia-org/clarvia-graph/tree/main/apps/web) |
 | [`lex`](https://github.com/clarvia-org/lex) | **Archived** — merged into [`clarvia-graph/lex`](https://github.com/clarvia-org/clarvia-graph/tree/main/lex) |
@@ -55,7 +55,7 @@ A reviewer's involvement does not automatically make them a maintainer.
 
 ### Contributors
 
-Contributors may submit issues, pull requests, source additions, workflow corrections, translations, documentation improvements, tooling improvements, and accessibility fixes.
+Contributors may submit issues, pull requests, source additions, workflow or guidance corrections, translations, documentation improvements, tooling improvements, and accessibility fixes.
 
 Contributions must follow the applicable repository's `CONTRIBUTING.md` and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -63,14 +63,11 @@ Contributions must follow the applicable repository's `CONTRIBUTING.md` and the 
 
 ## Publication standards
 
-Clarvia uses a conservative publication model. No consequence or checklist item should be published unless it is backed by an approved source assertion.
+Clarvia uses a conservative publication model:
 
-Each repository defines its own review and publication model:
+- **clarvia-graph** uses `review_status` for source assertions and `authoring_status` for graph records, alongside automated 4-layer factual and URL verification gates for the 1,000-page guidance corpus (`apps/web/src/content/corridor-guides.json`). See its [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) for details.
 
-- **clarvia-graph** uses `review_status` for source assertions and `authoring_status` for graph records. See its [CONTRIBUTING.md](https://github.com/clarvia-org/clarvia-graph/blob/main/CONTRIBUTING.md) for details.
-- **workflow-data** uses its own verification states during the transition period.
-
-For high-impact content (deadlines, required steps, legal obligations, cross-border rules, succession logic), maintainers may require expert review before publication.
+For high-impact content (deadlines, required steps, legal obligations, cross-border rules, succession logic), maintainers may require additional source or expert review before publication.
 
 ---
 
@@ -88,7 +85,7 @@ Where possible, project decisions should be documented, transparent, reversible,
 
 Clarvia may use AI-assisted workflows for source discovery, first-pass extraction, translation drafts, validation support, documentation drafts, and tooling assistance.
 
-AI-generated output must not be published without human review. AI-generated factual content must be checked against official or authoritative sources before publication.
+AI-generated output must not be published without human review and automated verification. AI-generated factual content must be checked against official or authoritative sources before publication.
 
 ---
 
@@ -110,7 +107,7 @@ Disclosure does not automatically prevent participation. Maintainers may adjust 
 
 ## Corrections and retractions
 
-Clarvia should correct errors promptly through issues, pull requests, changelog entries, or review-status updates.
+Clarvia corrects errors promptly through issues, pull requests, changelog entries, or review-status updates.
 
 Content may be marked stale or superseded when a source changes, a review expires, or a workflow item is no longer reliable.
 
@@ -120,9 +117,9 @@ Content may be marked stale or superseded when a source changes, a review expire
 
 Unless otherwise specified:
 
-- content, documentation, and graph data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**;
-- code and tooling in `clarvia-graph` are licensed under **European Union Public Licence 1.2 (EUPL-1.2)**;
-- code and tooling in other repositories are licensed under **Apache License 2.0**;
+- content, documentation, guidance corpus, and graph data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**;
+- graph code and tooling in `clarvia-graph` are licensed under **European Union Public Licence 1.2 (EUPL-1.2)**;
+- website (`apps/web`), legislation (`lex/`), and tooling in other repositories are licensed under **Apache License 2.0**;
 - schemas and vocabularies are licensed under **CC0 or Apache-2.0**.
 
 Individual repositories may include more specific licensing information.
