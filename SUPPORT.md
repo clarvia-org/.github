@@ -10,7 +10,7 @@ Clarvia provides administrative guidance based on official sources.
 
 Clarvia does not provide individualized legal advice, tax advice, inheritance advice, emergency assistance, grief counselling, or case management.
 
-If you need advice about a specific situation, please contact the relevant public authority or a qualified professional, or submit a general administrative inquiry via [Ask Clarvia](https://clarvia.org/en/ask).
+If you need advice about a specific situation, please contact the relevant public authority or a qualified professional, or submit a general administrative inquiry via [Ask Clarvia](https://clarvia.org/ask).
 
 ---
 

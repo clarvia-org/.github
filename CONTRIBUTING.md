@@ -31,7 +31,7 @@ You do not need to be a developer to make a meaningful contribution:
 - **Check links** — Verify that official URLs in our guidance corpus and source registries are still working and current
 - **Report outdated guidance** — Flag when an official procedure, form, or deadline has changed
 - **Review clarity** — Suggest clearer, calmer wording for families navigating terminal illness or bereavement
-- **Translate** — Help review or improve translations across our 14 supported languages (`EN`, `FR`, `DE`, `LU`, `PT`, `ES`, `IT`, `NL`, `PL`, `RO`, `UK`, `AR`, `ZH`, `HI`)
+- **Translate** — Help review or improve translations across our 14 supported languages (`EN`, `FR`, `DE`, `LU`, `PT`, `ES`, `IT`, `NL`, `PL`, `RO`, `UK`, `AR`, `TR`, `RU`)
 - **Test accessibility** — Keyboard navigation, screen readers, contrast, mobile layout
 
 ---
@@ -77,3 +77,13 @@ By contributing, you agree that your contributions will be licensed under the ap
 - **Code in `clarvia-graph` (graph engine):** EUPL-1.2
 - **Code in `apps/web`, `lex/`, `services/lex/`, and other repositories:** Apache-2.0
 - **Schemas and vocabularies:** CC0 or Apache-2.0
+
+---
+
+## Code of Conduct
+
+All participants must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Questions
+
+See [SUPPORT.md](SUPPORT.md) for support channels.
