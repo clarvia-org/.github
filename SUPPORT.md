@@ -1,6 +1,6 @@
 # Support
 
-Clarvia is an open public-interest infrastructure project for bereavement administration.
+Clarvia is an open public-interest project providing global multilingual guidance (196 countries, 14 languages) and open workflow infrastructure for terminal illness and bereavement administration.
 
 ---
 
@@ -10,7 +10,7 @@ Clarvia provides administrative guidance based on official sources.
 
 Clarvia does not provide individualized legal advice, tax advice, inheritance advice, emergency assistance, grief counselling, or case management.
 
-If you need advice about a specific situation, please contact the relevant public authority or a qualified professional.
+If you need advice about a specific situation, please contact the relevant public authority or a qualified professional, or submit a general administrative inquiry via [Ask Clarvia](https://clarvia.org/ask).
 
 ---
 
@@ -18,21 +18,20 @@ If you need advice about a specific situation, please contact the relevant publi
 
 ### Project questions
 
-For questions about the project, use GitHub issues or discussions in the relevant repository:
+For questions about the project, use GitHub issues or discussions in [`clarvia-org/clarvia-graph`](https://github.com/clarvia-org/clarvia-graph):
 
-| Repository | What to ask |
+| Area in `clarvia-graph` | What to ask |
 |---|---|
-| [clarvia-graph](https://github.com/clarvia-org/clarvia-graph/issues) | Schemas, data model, validation, sources |
-| [workflow-data](https://github.com/clarvia-org/workflow-data/issues) | Checklist content, source corrections, translations |
-| [workflow-web](https://github.com/clarvia-org/workflow-web/issues) | Website, accessibility, frontend |
+| [Issues](https://github.com/clarvia-org/clarvia-graph/issues) | Guidance corpus corrections (196 countries / 200 corridors), graph schemas, source records, website (`apps/web`), legislation (`lex/`), accessibility |
+| [Discussions](https://github.com/clarvia-org/clarvia-graph/discussions) | General project questions, architecture, standards alignment, contributor onboarding |
 
-### Workflow corrections
+### Guidance and workflow corrections
 
-If you find a possible error (incorrect deadline, broken link, outdated source, missing step), open an issue in the relevant repository with the jurisdiction, source URL, and description of the problem.
+If you find a possible error (incorrect deadline, broken link, outdated source, missing step) in any of our 1,000 localized guidance pages or checklist items, open a [workflow correction issue](https://github.com/clarvia-org/clarvia-graph/issues/new/choose) with the country/corridor, source URL, and description of the problem.
 
 ### Source additions
 
-If you find an official source that should be included, open a source discovery issue in [clarvia-graph](https://github.com/clarvia-org/clarvia-graph/issues/new/choose).
+If you find an official source that should be included, open a [source addition issue](https://github.com/clarvia-org/clarvia-graph/issues/new/choose) in `clarvia-graph`.
 
 ---
 
@@ -48,7 +47,7 @@ For conduct concerns, see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Do not open 
 
 ## Sensitive information
 
-Do not submit personal bereavement cases, identity documents, death certificates, family details, addresses, financial or medical information, or private correspondence through GitHub.
+Do not submit personal terminal illness or bereavement cases, identity documents, death certificates, family details, addresses, financial or medical information, or private correspondence through GitHub.
 
 ---
 

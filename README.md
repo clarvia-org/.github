@@ -10,7 +10,7 @@ This repository contains default community health files and templates for the Cl
 
 ## Purpose
 
-Clarvia builds open workflow infrastructure for verified, source-backed bereavement administration across Europe.
+Clarvia provides free, source-backed global guidance across 196 countries and 14 languages for terminal illness and bereavement administration — through Ask Clarvia, a 1,000-page multilingual guidance library, and an interactive bereavement checklist — backed by open workflow infrastructure (`Clarvia Graph` and `lex/`).
 
 The default files in this repository support:
 
@@ -18,7 +18,7 @@ The default files in this repository support:
 - clear review expectations,
 - respectful collaboration,
 - security reporting,
-- workflow correction processes,
+- workflow and guidance correction processes,
 - and consistent project governance.
 
 ---
@@ -44,7 +44,7 @@ Individual repositories may override these defaults when repository-specific gui
 
 | Repository | Purpose |
 |---|---|
-| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph, website (`apps/web`), legislation corpus (`lex/`), and Lex email service (`services/lex/`) |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph, website & 1,000-page global guidance library (`apps/web`), legislation corpus (`lex/`), and Lex email service (`services/lex/`) |
 | [`workflow-data`](https://github.com/clarvia-org/workflow-data) | **Archived** — legacy checklist data migrated into `clarvia-graph` |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | **Archived** — merged into [`clarvia-graph/apps/web`](https://github.com/clarvia-org/clarvia-graph/tree/main/apps/web) |
 | [`lex`](https://github.com/clarvia-org/lex) | **Archived** — merged into [`clarvia-graph/lex`](https://github.com/clarvia-org/clarvia-graph/tree/main/lex) |
@@ -65,7 +65,7 @@ This includes:
 - medical information,
 - financial information,
 - private correspondence,
-- or personal bereavement case details.
+- or personal terminal illness or bereavement case details.
 
 Clarvia provides administrative guidance based on official sources.
 
@@ -77,8 +77,8 @@ It does not provide individualized legal advice.
 
 Unless otherwise specified:
 
-- content, documentation, and graph data are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0);
-- code and tooling in `clarvia-graph` are licensed under European Union Public Licence 1.2 (EUPL-1.2);
-- code and tooling in other repositories are licensed under Apache License 2.0.
+- content, documentation, guidance corpus, and graph data are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0);
+- graph code and tooling in `clarvia-graph` are licensed under European Union Public Licence 1.2 (EUPL-1.2);
+- website (`apps/web`), legislation (`lex/`), and tooling in other repositories are licensed under Apache License 2.0.
 
 Individual repositories may include more specific licensing information.

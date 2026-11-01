@@ -1,8 +1,10 @@
 # Clarvia
 
-**Open bereavement workflow infrastructure for Europe**
+**Global terminal illness & bereavement guidance · Open administrative workflow infrastructure**
 
-[![Try the alpha checklist](https://img.shields.io/badge/🧪_Try_the_alpha_checklist-clarvia.org-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
+[![Ask Clarvia](https://img.shields.io/badge/✉️_Ask_Clarvia-clarvia.org%2Fask-0f766e?style=for-the-badge)](https://clarvia.org/ask)
+[![1,000-Page Global Guidance](https://img.shields.io/badge/🌍_1,000--Page_Global_Guidance-196_Countries_·_14_Languages-1d4ed8?style=for-the-badge)](https://clarvia.org/en/guidance)
+[![Interactive Checklist](https://img.shields.io/badge/🧪_Interactive_Checklist-clarvia.org%2Fchecklist-blue?style=for-the-badge)](https://clarvia.org/en/checklist)
 
 [![CI (graph)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml)
 [![CI (web)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-web.yml/badge.svg)](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-web.yml)
@@ -19,15 +21,18 @@
 [![License: Apache-2.0](https://img.shields.io/badge/Code_(lex)-Apache--2.0-blue.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/lex/LICENSE)
 [![License: CC-BY-4.0](https://img.shields.io/badge/Data-CC--BY--4.0-green.svg)](https://github.com/clarvia-org/clarvia-graph/blob/main/LICENSE-DATA)
 
-> **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-web.yml) · [CI (lex): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-lex.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Alpha checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web / Lex code: Apache-2.0 · Data: CC-BY-4.0
+> **Status:** [CI (graph): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/ci.yml) · [CI (web): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-web.yml) · [CI (lex): passing](https://github.com/clarvia-org/clarvia-graph/actions/workflows/validate-lex.yml) · [OpenSSF Best Practices: passing](https://www.bestpractices.dev/projects/13112) · [OpenSSF Scorecard](https://scorecard.dev/#/projects/github.com/clarvia-org/clarvia-graph) · [REUSE compliant](https://api.reuse.software/info/github.com/clarvia-org/clarvia-graph) · [Codecov](https://codecov.io/gh/clarvia-org/clarvia-graph) · [SonarCloud](https://sonarcloud.io/summary/new_code?id=clarvia-org_clarvia-graph) · [Ask Clarvia live](https://clarvia.org/ask) · [1,000-page global guidance](https://clarvia.org/en/guidance) · [Interactive checklist live](https://clarvia.org/en/checklist) · [DOI: 10.5281/zenodo.20572455](https://doi.org/10.5281/zenodo.20572455) · [FAIR: 4/5](https://fair-software.eu) · Graph code: EUPL-1.2 · Web / Lex code: Apache-2.0 · Data: CC-BY-4.0
 
-Clarvia is a structured, source-backed administrative workflow engine — and a free public service built on it to help families navigate complex administrative situations after a terminal illness diagnosis or a death.
+Clarvia is a structured, source-backed administrative workflow engine — and a free global public service built on it to help families navigate complex administrative situations after a terminal illness diagnosis or the death of a loved one.
 
-When someone dies, administrative requirements are scattered across public offices, banks, insurers, pension systems, employers, and cross-border institutions. No structured, machine-readable, openly licensed dataset of these workflows exists. Clarvia fills that gap - turning fragmented administrative guidance into structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
+When someone faces a terminal illness diagnosis or dies, administrative requirements are scattered across civil registries, health authorities, banks, insurers, pension systems, employers, tax agencies, and cross-border institutions. Clarvia turns fragmented official procedures into verified, plain-language guidance and structured workflow data that can be validated, versioned, exported, and reused across jurisdictions.
 
-Today, [clarvia.org](https://clarvia.org) serves families through **Ask Clarvia** (live source-cited email answers), a **1,000-page multilingual guidance library across 196 countries and 14 languages** covering terminal illness and bereavement administration, and an **interactive bereavement checklist** launched first in Luxembourg, where Clarvia ASBL is founded.
+Today, [clarvia.org](https://clarvia.org) serves families globally through:
+- **[Ask Clarvia](https://clarvia.org/ask)** — free, source-cited email answers to specific terminal illness, bereavement, and cross-border administrative questions in 100+ languages.
+- **[1,000-page global guidance library](https://clarvia.org/en/guidance)** — `592` canonical guides (`392` single-country terminal illness & bereavement guides across all **196 countries** plus **200 cross-border corridors**) published across **14 languages** (`1,000` localized pages).
+- **[Interactive bereavement checklist](https://clarvia.org/en/checklist)** — personalized step-by-step checklist powered by `Clarvia Graph`, launched first in Luxembourg where Clarvia ASBL is founded.
 
-The long-term goal is reusable European bereavement workflow infrastructure that can support human-readable checklists, machine-readable exports, responsible assisted workflows, and lightweight public API views.
+Underneath the public services, Clarvia builds open workflow infrastructure (`Clarvia Graph` and the `lex/` legislation corpus) supporting human-readable checklists, machine-readable exports, responsible assisted workflows, and standards-compatible public views.
 
 > Clarvia provides administrative guidance based on official sources. It is not a substitute for individualized legal advice.
 
@@ -35,7 +40,7 @@ The long-term goal is reusable European bereavement workflow infrastructure that
 
 ## Follow Our Journey
 
-We are building practical support to ensure no one has to figure out the practical side of loss alone. You can follow our journey and watch our progress on [YouTube](https://www.youtube.com/channel/UCQt8JlIa-fBlV9s4_6hHsAg/).
+We are building practical support to ensure no one has to figure out the practical side of terminal illness or loss alone. You can follow our journey and watch our progress on [YouTube](https://www.youtube.com/channel/UCQt8JlIa-fBlV9s4_6hHsAg/).
 
 [![Watch our playlist on YouTube](https://i.ytimg.com/vi/qMbWLmpjJMA/oar2.jpg?sqp=-oaymwEbCJUDEOAESFqQAgHyq4qpAwoIARUAAIhCyAEB&rs=AOn4CLB8pSNcttc28yPmKXiSDjpmfJ5U2A&usqp=CCk)](https://www.youtube.com/playlist?list=PLPvk31TQlhyg)
 
@@ -45,7 +50,8 @@ We are building practical support to ensure no one has to figure out the practic
 
 | Repository | Role | License |
 |---|---|---|
-| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — graph engine, website (`apps/web`), legislation corpus (`lex/`), Lex email package (`services/lex/`) | EUPL-1.2 (graph code) · Apache-2.0 (web / lex) · CC-BY-4.0 (data) |
+| [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) | **Public monorepo** — consequence graph engine, website & 1,000-page global guidance library (`apps/web`), legislation corpus (`lex/`), Lex email service (`services/lex/`) | EUPL-1.2 (graph code) · Apache-2.0 (web / lex) · CC-BY-4.0 (data) |
+| [`workflow-data`](https://github.com/clarvia-org/workflow-data) | **Archived** — legacy checklist data migrated into `clarvia-graph` | CC-BY-4.0 · Apache-2.0 |
 | [`workflow-web`](https://github.com/clarvia-org/workflow-web) | **Archived** — merged into [`apps/web`](https://github.com/clarvia-org/clarvia-graph/tree/main/apps/web) | Apache-2.0 |
 | [`lex`](https://github.com/clarvia-org/lex) | **Archived** — merged into [`lex/`](https://github.com/clarvia-org/clarvia-graph/tree/main/lex) | Apache-2.0 |
 
@@ -57,7 +63,7 @@ We are building practical support to ensure no one has to figure out the practic
 
 Clarvia separates what families see from how the information is maintained.
 
-Families see clear, accessible guidance and checklists (`Ask Clarvia`, the 1,000-page guidance library across 196 countries and 14 languages, and the interactive checklist). Underneath, Clarvia continuously validates and improves its published guidance through automated checks, hallucination prevention, staff review, and GitHub volunteers, while expanding `Clarvia Graph` and the normalized legislation corpus (`lex/`) as resources and funding grow.
+Families see clear, accessible guidance and checklists (`Ask Clarvia`, the 1,000-page guidance library across 196 countries and 14 languages, and the interactive checklist). Underneath, Clarvia continuously validates and improves its published guidance through automated 4-layer factual and URL checks, hallucination prevention, staff review, and GitHub volunteers, while expanding `Clarvia Graph` and the normalized legislation corpus (`lex/`) as resources and funding grow.
 
 Each workflow can include:
 - administrative tasks,
@@ -69,73 +75,70 @@ Each workflow can include:
 - verification status,
 - and review metadata.
 
-This structure is what makes future checklists, exports, assisted workflows, and public API views possible without turning the project into a collection of manually written pages.
+This structure is what makes checklists, multilingual guidance, exports, assisted workflows, and public API views possible without locking administrative knowledge into an unverified black box.
 
 ---
 
-## Implementation path
+## Global coverage & architecture
 
-Clarvia is designed as European public-interest infrastructure, but implementation happens step by step.
+Clarvia combines global multilingual guidance today with deep, standards-aligned workflow infrastructure:
 
-### First service to build and validate
+### 1. Global guidance library (`196` countries · `200` cross-border corridors · `14` languages)
 
-- Luxembourg — source-backed bereavement checklist and workflow foundation
+Clarvia's published guidance library on [clarvia.org/en/guidance](https://clarvia.org/en/guidance) covers **592 canonical guides** (**1,000 localized pages**):
+- **392 single-country guides** covering both **terminal illness** and **bereavement administration** across all **196 countries**.
+- **200 cross-border corridor guides** covering international repatriation, apostille/legalization, cross-border pensions, and multi-jurisdiction estates.
+- Published across **14 languages** (`EN`, `FR`, `DE`, `LU`, `PT`, `ES`, `IT`, `NL`, `PL`, `RO`, `UK`, `AR`, `TR`, `RU`) and verified through automated link, institutional, statutory, and contact validation gates.
 
-Luxembourg is not only the association's home. It is also a practical first case because many Luxembourg families have lives, relatives, assets, responsibilities, and memories across borders.
+### 2. Ask Clarvia (`/ask`)
 
-### Cross-border context
+When a family's situation crosses multiple jurisdictions or involves a specific administrative question, **[Ask Clarvia](https://clarvia.org/ask)** provides free, source-cited email answers in 100+ languages grounded in official public sources.
 
-The Luxembourg service should recognise international realities from the beginning, including situations involving:
-- neighbouring countries,
-- cross-border workers,
-- foreign pensions,
-- multilingual families,
-- international banks and insurers,
-- and family members or documents outside Luxembourg.
+### 3. Consequence graph (`Clarvia Graph`) & legislation corpus (`lex/`)
 
-### Future direction
-
-Clarvia's published guidance library on [clarvia.org](https://clarvia.org/en/guidance) covers 592 guides (1,000 localized pages) across 196 countries and cross-border corridors in 14 languages, continuously improved by staff and open-source contributors. Formal `Clarvia Graph` consequence-graph data and normalized `lex/` legislation datasets expand across additional European jurisdictions (such as France, Belgium, Germany, and Portugal) as dedicated resources and funding allow.
+Clarvia ASBL was founded in Luxembourg, where cross-border family life, foreign documents, international pensions, and multilingual administration are the everyday norm. Luxembourg serves as the first reference jurisdiction for our formal CPSV-AP / CCCEV / ELI / PROV-O consequence graph (`Clarvia Graph`) and normalized national legislation corpus (`lex/`), which expand across additional jurisdictions as resources and contributor capacity grow.
 
 ---
 
 ## Development model
 
-Clarvia is being developed through a phased, delivery-first model.
+Clarvia is developed through a phased, delivery-first model.
 
-Because bereavement guidance is urgently needed, we are not waiting for external funding cycles to complete before building. We use internal resources to create early proof-of-concept, alpha, and beta versions that validate assumptions, expose gaps, and test limited, clearly marked early guidance where appropriate.
+Because terminal illness and bereavement guidance is urgently needed, we do not wait for external funding cycles to complete before shipping public value. We combine internal resources, automated verification pipelines, staff review, and open-source collaboration to maintain live global guidance while deepening our formal graph infrastructure.
 
-This early work is not a substitute for funded development. It is a way to reduce delivery risk and demonstrate that the project can execute.
-
-Funding will support the next phase: turning early working versions into reliable public-interest infrastructure. That includes source review, expert validation, localization, accessibility, security, testing, documentation, governance, maintainability, and long-term sustainability.
-
-In short: early development proves momentum and feasibility; funded development makes the service more robust, validated, scalable, and sustainable.
+Funding supports the next phase of scale: deeper statutory normalization (`lex/`), expanded formal graph coverage (`Clarvia Graph`), expert legal/institutional review, localization, accessibility, and long-term public-good sustainability.
 
 ---
 
-## What Clarvia is building
+## What Clarvia builds
 
-Clarvia has two connected public-service goals.
+Clarvia connects four public-service components:
 
-### 1. Bereavement administration checklists
+### 1. Global terminal illness & bereavement guidance (`1,000` localized pages)
 
-Clear, source-backed guidance to help families understand practical administrative steps after a death: who may need to be contacted, which documents may be needed, where official information can be checked, and which circumstances may change the next step.
+Clear, source-backed guides covering all **196 countries** and **200 cross-border corridors** across **14 languages** — explaining urgent timelines, civil registration, health and care benefits, social security, tax, estates, and official authorities.
 
-### 2. A heritage folder
+### 2. Ask Clarvia (source-cited email guidance)
 
-Bereavement is not only administrative. Families may also need a dignified way to preserve important information, wishes, memories, stories, photos, contacts, and practical details that should not be lost during a difficult time.
+A free public inquiry service ([clarvia.org/en/ask](https://clarvia.org/ask)) that researches official government and statutory sources to answer specific administrative questions for families and support workers in over 100 languages.
 
-The checklist and heritage-folder ideas share the same principle: reduce confusion, preserve what matters, and help families during a hard moment.
+### 3. Interactive checklists & open consequence graph (`Clarvia Graph` + `lex/`)
+
+Machine-readable, source-backed workflow data and interactive checklists that evaluate conditions client-side to show which tasks, documents, deadlines, and institutions apply to a family's situation.
+
+### 4. A heritage folder
+
+Loss is not only administrative. Families also need a dignified way to preserve important information, wishes, memories, stories, photos, contacts, and practical details that should not be lost during a difficult time.
 
 ---
 
 ## Digital commons fit
 
-Clarvia is being built as open public-interest infrastructure.
+Clarvia is built as open public-interest infrastructure.
 
-The goal is not only to publish helpful checklists, but to maintain reusable source-backed workflow data, schemas, validation tools, documentation, and machine-readable exports that others can inspect, reuse, translate, improve, and build on.
+The goal is not only to publish helpful guidance, but to maintain reusable source-backed workflow data, schemas, validation tools, documentation, and machine-readable exports that others can inspect, reuse, translate, improve, and build on.
 
-This makes Clarvia relevant to the digital commons: the same verified workflow data can support accessible public websites, nonprofit tools, research, responsible assisted workflows, and future public API views without locking the knowledge into a single private service.
+This makes Clarvia relevant to the digital commons: the same verified data and corpus can support accessible public websites, nonprofit tools, research, responsible assisted workflows, and public API views without locking the knowledge into a single private service.
 
 ---
 
@@ -145,19 +148,17 @@ Please read our [Contributing Guide](../CONTRIBUTING.md) before submitting issue
 
 All contributors must follow our [Code of Conduct](../CODE_OF_CONDUCT.md).
 
-You do not need to be a developer to help. Clarvia needs people who care about reducing administrative burden during bereavement.
+You do not need to be a developer to help. Clarvia welcomes anyone who cares about reducing the administrative burden families face during terminal illness and bereavement.
 
 We especially welcome help with:
-- finding and checking official sources,
-- multilingual review,
-- accessibility,
-- plain-language explanations,
-- provenance tracking,
-- validation tooling,
-- documentation,
-- and future heritage-folder research.
+- finding and checking official sources across our 196-country & 200-corridor guidance corpus,
+- multilingual review across our 14 supported languages,
+- accessibility and plain-language explanations,
+- provenance tracking and graph modeling (`Clarvia Graph` & `lex/`),
+- validation tooling and documentation,
+- and heritage-folder research.
 
-The first service is Luxembourg-focused, but the underlying model is designed so that careful contributions can later support other European jurisdictions.
+Contributors can help verify and improve guidance for any country or cross-border corridor in [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph).
 
 ---
 
@@ -183,7 +184,7 @@ To report a vulnerability or sensitive issue, please see [SECURITY.md](../SECURI
 
 Unless otherwise specified:
 
-- Content, documentation, and workflow data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**
+- Content, documentation, guidance corpus, and workflow data are licensed under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**
 - Graph engine code in `clarvia-graph` is licensed under **European Union Public Licence 1.2 (EUPL-1.2)**
 - Website (`apps/web`), legislation package (`lex/`), and related tooling in the monorepo are licensed under **Apache License 2.0**
 - Schemas and vocabularies are licensed under **CC0 or Apache-2.0**
@@ -196,7 +197,7 @@ See packages in [`clarvia-graph`](https://github.com/clarvia-org/clarvia-graph) 
 
 ### Infrastructure Support
 
-Clarvia gratefully acknowledges the support of GitHub for Nonprofits, which provides eligible nonprofit organizations with access to GitHub tools and benefits that help mission-driven teams build, collaborate, and scale their impact. These benefits help us develop Clarvia's technology platform more efficiently, so we can focus our resources on supporting bereaved families free of charge.
+Clarvia gratefully acknowledges the support of GitHub for Nonprofits, which provides eligible nonprofit organizations with access to GitHub tools and benefits that help mission-driven teams build, collaborate, and scale their impact. These benefits help us develop Clarvia's technology platform more efficiently, so we can focus our resources on supporting families free of charge.
 
 We are grateful for the support of ecosystem partners who have endorsed Clarvia’s public-interest mission, including **[Trauerwee ASBL](https://trauerwee.lu/)**, which has expressed its intention to support a future pilot, and **[TSC Real Estate](https://www.tsc-realestate.de/en/)**, which has endorsed our public-interest goals.
 
